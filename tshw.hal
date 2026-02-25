@@ -1,0 +1,20 @@
+
+
+
+net io00 	hm2_7i96s.0.TsHW.0.0.input-00  hm2_7i96s.0.TsHW.0.0.output-00
+net io01 	hm2_7i96s.0.TsHW.0.0.input-01  hm2_7i96s.0.TsHW.0.0.output-01
+net io02 	hm2_7i96s.0.TsHW.0.0.input-02  hm2_7i96s.0.TsHW.0.0.output-02
+net io03 	hm2_7i96s.0.TsHW.0.0.input-03  hm2_7i96s.0.TsHW.0.0.output-03
+net io04 	hm2_7i96s.0.TsHW.0.0.input-04  hm2_7i96s.0.TsHW.0.0.output-04
+net io05 	hm2_7i96s.0.TsHW.0.0.input-05  hm2_7i96s.0.TsHW.0.0.output-05
+net io06 	hm2_7i96s.0.TsHW.0.0.input-06  hm2_7i96s.0.TsHW.0.0.output-06
+net io07 	hm2_7i96s.0.TsHW.0.0.input-07  hm2_7i96s.0.TsHW.0.0.output-07
+net io08 	hm2_7i96s.0.TsHW.0.0.input-08  hm2_7i96s.0.TsHW.0.0.output-08
+net io09 	hm2_7i96s.0.TsHW.0.0.input-09  hm2_7i96s.0.TsHW.0.0.output-09
+net io10 	hm2_7i96s.0.TsHW.0.0.input-10  hm2_7i96s.0.TsHW.0.0.output-10
+net io11 	hm2_7i96s.0.TsHW.0.0.input-11  hm2_7i96s.0.TsHW.0.0.output-11
+net io12 	hm2_7i96s.0.TsHW.0.0.input-12  hm2_7i96s.0.TsHW.0.0.output-12
+net io13 	hm2_7i96s.0.TsHW.0.0.input-13  hm2_7i96s.0.TsHW.0.0.output-13
+net io14 	hm2_7i96s.0.TsHW.0.0.input-14  hm2_7i96s.0.TsHW.0.0.output-14
+net io15 	hm2_7i96s.0.TsHW.0.0.input-15  hm2_7i96s.0.TsHW.0.0.output-15
+
