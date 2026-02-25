@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <requires lib="gladevcp" version="0.0"/>
+  <object class="GtkWindow" id="window1">
+    <property name="can-focus">False</property>
+    <child>
+      <!-- n-columns=5 n-rows=17 -->
+      <object class="HAL_Table" id="table00">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Inputs</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">0</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Outpus</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">0</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">00</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">01</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">02</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">03</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">04</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">05</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">06</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">07</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">08</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">09</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">10</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">11</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">12</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">13</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">14</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">14</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">15</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in00">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in01">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in02">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in03">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in04">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in05">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in06">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in07">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in08">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in09">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in10">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in11">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in12">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in13">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">14</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in14">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out00">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out01">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out02">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out03">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out04">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out05">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out06">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out07">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out08">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out09">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out10">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out11">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out12">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out13">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">14</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out14">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">00</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">01</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">02</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">03</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">04</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">05</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">06</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">07</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">08</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">09</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">10</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">11</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">12</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">13</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">14</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">14</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="in15">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_LED" id="out15">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="led-blink-rate">0</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">15</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Analog Inputs</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_Label" id="analog0">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">label</property>
+            <property name="label-pin-type">2</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_Label" id="analog1">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">label</property>
+            <property name="label-pin-type">2</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Encoder Input</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="HAL_Label" id="encoder">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">label</property>
+          </object>
+          <packing>
+            <property name="left-attach">4</property>
+            <property name="top-attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

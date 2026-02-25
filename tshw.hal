@@ -18,3 +18,29 @@ net io13 	hm2_7i96s.0.TsHW.0.0.input-13  hm2_7i96s.0.TsHW.0.0.output-13
 net io14 	hm2_7i96s.0.TsHW.0.0.input-14  hm2_7i96s.0.TsHW.0.0.output-14
 net io15 	hm2_7i96s.0.TsHW.0.0.input-15  hm2_7i96s.0.TsHW.0.0.output-15
 
+
+
+setp gladevcp.table00 true
+ 
+
+net io00 gladevcp.out00 gladevcp.in00
+net io01 gladevcp.out01 gladevcp.in01
+net io02 gladevcp.out02 gladevcp.in02
+net io03 gladevcp.out03 gladevcp.in03
+net io04 gladevcp.out04 gladevcp.in04
+net io05 gladevcp.out05 gladevcp.in05
+net io06 gladevcp.out06 gladevcp.in06
+net io07 gladevcp.out07 gladevcp.in07
+net io08 gladevcp.out08 gladevcp.in08
+net io09 gladevcp.out09 gladevcp.in09
+net io10 gladevcp.out10 gladevcp.in10
+net io11 gladevcp.out11 gladevcp.in11
+net io12 gladevcp.out12 gladevcp.in12
+net io13 gladevcp.out13 gladevcp.in13
+net io14 gladevcp.out14 gladevcp.in14
+net io15 gladevcp.out15 gladevcp.in15
+
+
+net pot1 gladevcp.analog0     hm2_7i96s.0.TsHW.0.0.poti_1
+net pot2 gladevcp.analog1     hm2_7i96s.0.TsHW.0.0.poti_2
+net tshwenc hm2_7i96s.0.TsHW.0.0.encoder-0.rawcounts  gladevcp.encoder

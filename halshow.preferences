@@ -1,6 +1,6 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 689x393+349+226
+wm geometry . 989x1187+1276+194
 placeFrames 0.3
 set ::ratio 0.3
 set ::old_w_leftf 160
@@ -11,8 +11,15 @@ set ::watchlist {
     pin+hm2_7i96s.0.TsHW.0.0.input-00
     pin+hm2_7i96s.0.TsHW.0.0.input-01
     pin+hm2_7i96s.0.TsHW.0.0.input-02
+    pin+gladevcp.in01
+    pin+gladevcp.in00
+    pin+gladevcp.table00
+    pin+gladevcp.out00
+    pin+gladevcp.analog0
+    pin+gladevcp.analog1
+    pin+gladevcp.encoder
 }
-set ::workmode watchhal
+set ::workmode showhal
 set ::watchInterval 100
 set ::col1_width 100
 set ::ffmts 
